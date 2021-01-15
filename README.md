@@ -1,5 +1,6 @@
 # CSharp-programmieren-Teil-2
 Übungen zu Programmieren C# Skriptum Teil 2
+Klassen, Klassenhierarchien, Interface, Static, Enum, Struct, String-Stringbuilder, File I/O 
 
 ![1](https://user-images.githubusercontent.com/61902639/104735281-b79de080-5741-11eb-8fad-06e1cf50872b.png)
 ![2](https://user-images.githubusercontent.com/61902639/104735302-bcfb2b00-5741-11eb-8b54-c1f8b38fadee.png)
