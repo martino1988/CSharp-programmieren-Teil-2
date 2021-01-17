@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_001_T2K1_PC_ein_ausschalten</RootNamespace>
+    <AssemblyName>002 T2K1 PC ein_ausschalten</AssemblyName>
+  </PropertyGroup>
+
+</Project>
