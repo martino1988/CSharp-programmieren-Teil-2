@@ -21,8 +21,11 @@ namespace _001_T2K0_Student
             Console.Write("Email eingeben: ");
             string email = Console.ReadLine();
 
-            Student s = new Student(name, matr, email);
-
+            //Student s = new Student(name, matr, email);
+            Student s = new Student();
+            s.Email_Id = email;
+            s.Matrikelnummer = matr;
+            s.Name = name;
             Console.WriteLine("Name: {0}\nMatrikelnummer: {1}\nEmail: {2}", s.Name, s.Matrikelnummer, s.Email_Id);
         }
     }

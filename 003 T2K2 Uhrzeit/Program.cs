@@ -25,7 +25,7 @@ namespace _003_T2K2_Uhrzeit
             //  +Diff(t2 : Uhrzeit, out hh : int, out mm : int, out ss : int)
             //  +Drucken()
             bool chk = false;
-
+            Uhrzeit u = new Uhrzeit();
             while (true)
             {
                 Console.WriteLine("-----------------------");
@@ -47,7 +47,7 @@ namespace _003_T2K2_Uhrzeit
                         int m = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Sekunden festlegen: ");
                         int s = Convert.ToInt32(Console.ReadLine());
-                        bool c = Uhrzeit.setUhrzeit(h, m, s);
+                        bool c = u.setUhrzeit(h, m, s);
                         if (c == true)
                             chk = true;
                         break;
@@ -63,7 +63,7 @@ namespace _003_T2K2_Uhrzeit
                             Console.Write("Sekunden festlegen: ");
                             int sadd = Convert.ToInt32(Console.ReadLine());
 
-                            Uhrzeit.Add(hadd, madd, sadd);
+                            u.Add(hadd, madd, sadd);
                         }
                         else
                             Console.WriteLine("Uhrzeit muss festgelegt werden");
@@ -80,7 +80,7 @@ namespace _003_T2K2_Uhrzeit
                             Console.Write("Sekunden festlegen: ");
                             int ssub = Convert.ToInt32(Console.ReadLine());
 
-                            Uhrzeit.Sub(hsub, msub, ssub);
+                            u.Sub(hsub, msub, ssub);
                         }
                         else
                             Console.WriteLine("Uhrzeit muss festgelegt werden");
@@ -97,7 +97,7 @@ namespace _003_T2K2_Uhrzeit
                             Console.Write("Sekunden festlegen: ");
                             int sdiff = Convert.ToInt32(Console.ReadLine());
 
-                            Uhrzeit.Diff(hdiff, mdiff, sdiff);
+                            u.Diff(hdiff, mdiff, sdiff);
                         }
                         else
                             Console.WriteLine("Uhrzeit muss festgelegt werden");
@@ -106,7 +106,7 @@ namespace _003_T2K2_Uhrzeit
                         //Uhrzeit drucken und chk überprüfen
                         if (chk == true)
                         {
-                            Uhrzeit.Drucken();
+                            u.Drucken();
                         }
                         else
                             Console.WriteLine("Uhrzeit muss festgelegt werden");

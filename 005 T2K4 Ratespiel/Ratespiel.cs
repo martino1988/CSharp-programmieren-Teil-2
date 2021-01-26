@@ -26,9 +26,9 @@ namespace _005_T2K4_Ratespiel
             zufallsZahl = r.Next(0, 10);
 
             spielerarray = new Spieler[3];
-            Spieler s1 = new Spieler("Spieler1");
-            Spieler s2 = new Spieler("Spieler2");
-            Spieler s3 = new Spieler("Spieler3");
+            Spieler s1 = new Spieler("Spieler 1");
+            Spieler s2 = new Spieler("Spieler 2");
+            Spieler s3 = new Spieler("Spieler 3");
 
             spielerarray[0] = s1;
             spielerarray[1] = s2;
@@ -48,7 +48,7 @@ namespace _005_T2K4_Ratespiel
                     {
                         erraten = true;
                         gerateneZahl = geraten;
-                        spielername = s.Name();
+                        spielername = s.Name;
                         break;
                     }
                 }

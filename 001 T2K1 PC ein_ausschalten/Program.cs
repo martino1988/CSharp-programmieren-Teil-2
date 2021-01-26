@@ -38,29 +38,29 @@ namespace _002_T2K1_PC_ein_ausschalten
                 {
                     case 1:
                         //Einschalten
-                        if (pc.Status() == false)
+                        if (pc.Status == false)
                         {
                             pc.Einschalten();
                         }
                         else
-                            Console.WriteLine("Einschalten nicht möglich! Status ist: " + pc.Status());
+                            Console.WriteLine("Einschalten nicht möglich! Status ist: " + pc.Status);
                         break;
                     case 2:
                         //Ausschalten
-                        if (pc.Status() == true)
+                        if (pc.Status == true)
                         {
                             pc.Ausschalten();
                         }
                         else
-                            Console.WriteLine("Ausschalten nicht möglich! Status ist: " + pc.Status());
+                            Console.WriteLine("Ausschalten nicht möglich! Status ist: " + pc.Status);
                         break;
                     case 3:
                         //Staus anzeigen:
-                        if (pc.Status() == true)
+                        if (pc.Status == true)
                         {
                             Console.WriteLine("PC ist eingeschaltet");
                         }
-                        else if (pc.Status() == false)
+                        else if (pc.Status == false)
                         {
                             Console.WriteLine("PC ist ausgeschaltet");
                         }

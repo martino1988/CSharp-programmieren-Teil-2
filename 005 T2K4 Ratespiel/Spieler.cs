@@ -7,7 +7,7 @@ namespace _005_T2K4_Ratespiel
     class Spieler
     {
         //Instanzvariablen (nie public!)
-        string name;
+        private string name;
         Random r = new Random();
 
         //Konstruktor
@@ -23,9 +23,9 @@ namespace _005_T2K4_Ratespiel
             int zahl = r.Next(0, 10);
             return zahl;
         }
-        public string Name()
+        public string Name
         {
-            return name;
+            get { return name; }
         }
     }
 }

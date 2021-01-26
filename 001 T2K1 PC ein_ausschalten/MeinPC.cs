@@ -6,7 +6,7 @@ namespace _002_T2K1_PC_ein_ausschalten
 {
     class MeinPC
     {
-        bool status;
+        private bool status;
 
         public void Einschalten()
         {
@@ -18,10 +18,6 @@ namespace _002_T2K1_PC_ein_ausschalten
             status = false;
             Console.WriteLine("PC ausgeschaltet");
         }
-        public bool Status()
-        {
-            bool stat = status;
-            return stat;
-        }
+        public bool Status { get { return status; } }
     }
 }
