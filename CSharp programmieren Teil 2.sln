@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006 T2K5 Hundezwinger", "00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007 T2K6 Kurs", "007 T2K6 Kurs\007 T2K6 Kurs.csproj", "{BFF7F8DD-BD94-44CA-86C2-F6F12ADC5057}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 T2K7 Konto", "008 T2K7 Konto\008 T2K7 Konto.csproj", "{502A966B-98AB-4F5D-9FC5-62240D0069D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008 T2K7 Konto", "008 T2K7 Konto\008 T2K7 Konto.csproj", "{502A966B-98AB-4F5D-9FC5-62240D0069D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009 T2K8 Komplexe Zahl", "009 T2K8 Komplexe Zahl\009 T2K8 Komplexe Zahl.csproj", "{D1AF483B-8046-4E64-8084-D210B446D81F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009 T2K8 Komplexe Zahl", "009 T2K8 Komplexe Zahl\009 T2K8 Komplexe Zahl.csproj", "{D1AF483B-8046-4E64-8084-D210B446D81F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010 T2K9 Punkt und Strecke", "010 T2K9 Punkt und Strecke\010 T2K9 Punkt und Strecke.csproj", "{2E080501-AA6C-4655-9011-58F7DED023DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010 T2K9 Punkt und Strecke", "010 T2K9 Punkt und Strecke\010 T2K9 Punkt und Strecke.csproj", "{2E080501-AA6C-4655-9011-58F7DED023DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011 T2K10 Intervall", "011 T2K10 Intervall\011 T2K10 Intervall.csproj", "{286D1B4B-9BDF-4926-AF29-66918C663AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{2E080501-AA6C-4655-9011-58F7DED023DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E080501-AA6C-4655-9011-58F7DED023DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E080501-AA6C-4655-9011-58F7DED023DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286D1B4B-9BDF-4926-AF29-66918C663AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286D1B4B-9BDF-4926-AF29-66918C663AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286D1B4B-9BDF-4926-AF29-66918C663AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286D1B4B-9BDF-4926-AF29-66918C663AE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
